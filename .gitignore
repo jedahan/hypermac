@@ -1,0 +1,4 @@
+out/*
+!out/.gitkeep
+tmp/*
+!tmp/.gitkeep
