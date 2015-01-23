@@ -1,18 +1,14 @@
-How to run:
+Start by opening [Mini vMac](./Mini\ vMac.app) on osx, or `./minivmac` on linux.
 
-    ./minivmac system608.dsk 020M.dsk
-
-
-Now try running "Hard Drive" "Bard Stacks" "Draw Me"
+Once the emulator is running, dry out the "Draw Me" application!
 
 ### mini vmac
 
-   This repo contains an custom version of minivmac jedahan made, to redraw the entire screen on mousemove.
+   This repo contains an custom version of minivmac, modified to redraw the entire screen on mousemove by jedahan.
    Otherwise, there are crazy artifacts everywhere on linux.
    The modified source is in the `src/` directory. It should really be version controlled at some point...
 
    The most relevant file is MYOSGLUE.c :)
-
 
 ### src/system
 
@@ -21,6 +17,14 @@ Now try running "Hard Drive" "Bard Stacks" "Draw Me"
    disk, which is required to install system 6 on a hard drive.
 
 #### Disks
+
+   * `disk1.dsk`
+
+   This is a fresh startup disk for system 6.0.8
+
+   * `disk2.dsk`
+
+   This houses hypercard 2.1, and the bard stacks. Its a 20mb 'hard drive' where development is done
 
    * hypercard/
 
@@ -40,10 +44,6 @@ Now try running "Hard Drive" "Bard Stacks" "Draw Me"
    `system_startup.dsk` Boot off of here if you want
 
    `system_additions.dsk` Required when installing System 6 to a new hard drive
-
-   * `020M.dsk`
-
-   This is the current working image. Latest development is done here.
 
    * utilities/
 
