@@ -4,9 +4,11 @@ Once the emulator is running, dry out the "Draw Me" application!
 
 ### mini vmac
 
+   **Mini vMac.app** is distributed under the terms of the [GPL](license.txt).
+
    This repo contains an custom version of minivmac, modified to redraw the entire screen on mousemove by jedahan.
    Otherwise, there are crazy artifacts everywhere on linux.
-   The modified source is in the `src/` directory. It should really be version controlled at some point...
+   The modified source is in the `src/` directory. It should really be version controlled separately at some point...
 
    The most relevant file is MYOSGLUE.c :)
 
