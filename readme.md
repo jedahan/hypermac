@@ -57,3 +57,13 @@ Once the emulator is running, dry out the "Draw Me" application!
   There are two utilities in the system_utilities.dsk disk image - ImportFl, and ExportFl. These let you
   move files between the host operating system and your system6 disk. Drag'n'drop works, as does the menu entries.
   Files will be places in the `out/` folder with ExportFl.
+
+
+# Thanks
+
+Thank you
+
+  * Bill Atkinson, for creating this wonderful development environment
+  * [Jeanne's Hypertalk BNF][], for creating a BNF of the language
+
+[Jeanne's Hypertalk BNF]: http://www.jaedworks.com/hypercard/scripts/hypertalk-bnf.html
